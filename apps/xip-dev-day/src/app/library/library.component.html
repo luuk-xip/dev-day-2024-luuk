@@ -1,0 +1,12 @@
+<div style="display: flex; flex-wrap: wrap;">
+    <div *ngFor="let bit of data" style="padding: 10px;">
+        <card-component 
+            [totalAchievements]="bit.totalAchievements"
+            [obtainedAchievements]="bit.obtainedAchievements"
+            [imageLink]="bit.imageLink"
+            [gameTitle]="bit.gameTitle"
+            [description]="bit.description"
+        ></card-component>
+    </div>
+</div>
+

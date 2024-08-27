@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@xip-dev-day/components": ["libs/components/src/index.ts"]
+      "@xip-dev-day/components": ["libs/components/src/index.ts"],
+      "@xip-dev-day/mylib": ["libs/mylib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
