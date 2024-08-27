@@ -5,7 +5,7 @@
     "declaration": true,
     "types": ["node"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/challenges/challenge-1/challenge-1.js"],
   "exclude": [
     "jest.config.ts",
     "src/**/*.spec.ts",
