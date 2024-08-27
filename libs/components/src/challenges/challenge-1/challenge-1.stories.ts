@@ -5,7 +5,7 @@ import { Challenge1Component } from './challenge-1.component';
 const component = new Challenge1Component();
 
 const meta: Meta<Challenge1Component> = {
-  title: 'Challenge 1 Component',
+  title: 'Challenges/Challenge 1',
   component: component.tagName,
   render: (args: Challenge1Component) =>
     html`<challenge-1 />,`,
